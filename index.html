@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calc_container"> 
+        <!-- определяем контейнер для всего калькулятора -->
+        <input type="text" class="calc_input">
+        <!-- инпут в которому будут выводиться результат и текущий запрос -->
+        <div class="digit_container">
+            <!-- контейнер с цифрами -->
+            <div id="clear" class="calc-digit">C</div>
+            <!-- этот элемент отличается своим id чтобы назначить ему конкретную функцию очистки -->
+            <div class="calc-digit">(</div>
+            <div class="calc-digit">)</div>
+            <div class="calc-digit">/</div>
+            <div class="calc-digit">7</div>
+            <div class="calc-digit">8</div>
+            <div class="calc-digit">9</div>
+            <div class="calc-digit">*</div>
+            <div class="calc-digit">4</div>
+            <div class="calc-digit">5</div>
+            <div class="calc-digit">6</div>
+            <div class="calc-digit">-</div>
+            <div class="calc-digit">1</div>
+            <div class="calc-digit">2</div>
+            <div class="calc-digit">3</div>
+            <div class="calc-digit">+</div>
+            <div class="calc-digit">0</div>
+            <div class="calc-digit">.</div>
+            <div id="erase" class="calc-digit"><</div>
+            <div id="equal" class="calc-digit">=</div>
+        </div>
+    </div>
+</body>
+</html>
